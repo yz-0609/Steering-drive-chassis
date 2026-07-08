@@ -1,0 +1,49 @@
+# Keil MDK build outputs
+MDK-ARM/standard_tpye_c/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.lnp
+*.dep
+*.iex
+*.lst
+*.htm
+*.build_log.htm
+
+# Keil user/session files
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+*.uvgui
+*.uvguix
+
+# Debug probe and generated debug files
+MDK-ARM/DebugConfig/
+MDK-ARM/EventRecorderStub.scvd
+MDK-ARM/JLink*.ini
+MDK-ARM/JLink*.txt
+*.dbgconf
+*.scvd
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+*.bak
+*.Bak
+*.tmp
+*.log
+*.lock
+
